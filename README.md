@@ -12,3 +12,5 @@ Current student at **Brooklyn College** and a **Major** in _Computer Science_ an
 * [Resume](https://bcmailcuny-my.sharepoint.com/:w:/g/personal/david_rodriguez105_bcmail_cuny_edu/EVkS6h8gNZhEr5plKZXulbQBO4aQ__SbvIZDtETcGgqksA?e=XuWNbz)
 
 * [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
+
+* [Tableau](https://public.tableau.com/app/profile/david.rodriguez1513/vizzes)
