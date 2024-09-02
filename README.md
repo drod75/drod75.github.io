@@ -22,3 +22,5 @@ Feel free to explore my portfolio to see the projects I’ve been working on and
 * [Resume](https://bcmailcuny-my.sharepoint.com/:w:/g/personal/david_rodriguez105_bcmail_cuny_edu/EVkS6h8gNZhEr5plKZXulbQBO4aQ__SbvIZDtETcGgqksA?e=XuWNbz)
 
 * [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
+
+* [Email](dr507498@gmail.com)
