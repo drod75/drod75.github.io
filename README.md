@@ -23,4 +23,4 @@ Feel free to explore my portfolio to see the projects I’ve been working on and
 
 * [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
 
-* [Email](dr507498@gmail.com)
+* Email: dr507498@gmail.com
