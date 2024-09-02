@@ -1,3 +1,8 @@
-#David Rodriguez Portfolio
 name: My Site
-theme: jekyll-theme-minimal
+first_name: David
+last_name: Rodriguez
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+email: dr507498@gmail.com
+description: >
+  A simple site for those who wish to contact to research David Rodriguez, all allowed contact methods are listed.
+lang: en

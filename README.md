@@ -1,4 +1,4 @@
-# David Rodriguez Portfolio
+# Personal Portfolio 
 ***
 
 Current student at **Brooklyn College** and a **Major** in _Computer Science_ and **Minor** in _Data Science_, organization experience includes Cuny Tech Prep, former mentee in the Brooklyn College BLMI Mentorship Collective. Hobbies included participating in college events, being a part of a local podcast, and active learner.
