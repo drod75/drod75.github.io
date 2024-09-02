@@ -6,3 +6,5 @@ email: dr507498@gmail.com
 description: >
   A simple site for those who wish to contact to research David Rodriguez, all allowed contact methods are listed.
 lang: en
+plugins:
+  jekyll-include-cache
