@@ -14,7 +14,7 @@ Feel free to explore my portfolio to see the projects I’ve been working on and
 ![Headshot](https://github.com/user-attachments/assets/9aeaeadf-5e12-49a3-932d-d6a12246d803)
 
 ## Project Info
-*[CUNY Tech Prep Hackathon](https://devpost.com/software/cuny-bulletin)
+* [CUNY Tech Prep Hackathon](https://devpost.com/software/cuny-bulletin)
 
 * [Coursera IBM Data Analyst Final Project](https://github.com/drod75/IBM-FINAL-PROJECT-REPO)
 
