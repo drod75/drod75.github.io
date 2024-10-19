@@ -15,4 +15,5 @@ I’m driven by a passion for innovation and a keen interest in exploring new op
 Feel free to explore my portfolio to see the projects I’ve been working on and learn more about my journey. I’m always excited to connect with like-minded individuals and explore new possibilities!
 
 ## Resume
-* [Resume](https://drive.google.com/file/d/1X-BKtd-BX_n_A8FQUk2Teu-7TjcTD_JK/view?usp=drive_link)
+This is by current resume, the link leads to my google drive so it can constantly be updated behind the scenes, if you are interested in anything feel free to send me an email.
+* [Resume](https://drive.google.com/file/d/1P2XaJpzCK55BDZ0G21YhvaovWrpGJlab/view)

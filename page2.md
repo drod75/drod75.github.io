@@ -9,4 +9,4 @@ These are the various ways I can be contacted, feel free to send me a Linkedin m
 
 * [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
 
-* E-mail: .link-style1[[dr507498@gmail.com](mailto:dr507498@gmail.com)]
+* E-mail: [dr507498@gmail.com](mailto:dr507498@gmail.com)
