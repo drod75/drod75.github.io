@@ -2,9 +2,6 @@
 title: Contact Info
 layout: page
 filename: page2
-remote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme
 --- 
 
 ## Contact Info
