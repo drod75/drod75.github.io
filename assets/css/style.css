@@ -1,9 +1,5 @@
 @import "{{ site.theme }}";
 
-header {
-    background: url('assets\img\sidebar-bg.jpg') no-repeat top center ;
-}
-
 .hy1 {
   list-style-type: none;
   padding: 0px;
