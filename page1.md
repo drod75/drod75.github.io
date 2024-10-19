@@ -1,12 +1,12 @@
 ---
-title: Contact Info
+title: Projects
 layout: default
 filename: page1
 --- 
 
-## Contact Info
-* [Resume](https://drive.google.com/file/d/1X-BKtd-BX_n_A8FQUk2Teu-7TjcTD_JK/view?usp=drive_link)
+## Project Info
+* [CUNY Tech Prep Hackathon](https://devpost.com/software/cuny-bulletin)
 
-* [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
+* [Coursera IBM Data Analyst Final Project](https://github.com/drod75/IBM-FINAL-PROJECT-REPO)
 
-* Email: dr507498@gmail.com
+* [Tableau](https://public.tableau.com/app/profile/david.rodriguez1513/vizzes)

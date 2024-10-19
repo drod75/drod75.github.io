@@ -1,12 +1,26 @@
+#Name stuff
 name: David Rodriguez
 first_name: David
 last_name: Rodriguez
+#theme
 theme: jekyll-theme-slate
+
+#title and description
 title: >
   David Rodriguez Portfolio
 description: >
   My name is David Rodriguez, I am an aspiring Data Analyst and am currently a student at Brooklyn College.
+
+#menu
+menu:
+  - title:             Home
+    url:               index.md
+  - title:             Projects
+    url:               page1.md
+  - title:             Contact Info
+    url:               page2.md
+
+#author and language
 author:
   name: David Rodriguez
-
 lang: en
