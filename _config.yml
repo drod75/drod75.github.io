@@ -23,7 +23,8 @@ menu:
   - title:             Contact Info
     url:               page2.md
 
-#author and language
+#misc.
+show_downloads: False
 author:
   name: David Rodriguez
 lang: en
