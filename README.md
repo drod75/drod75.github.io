@@ -1,5 +1,4 @@
-# Personal Portfolio 
-***
+## Introduction 
 
 Hello, I'm **David Rodriguez**!
 
