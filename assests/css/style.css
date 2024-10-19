@@ -1,6 +1,6 @@
 @import "{{ site.theme }}";
 
-.navbar ul {
+.hy1 {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.navbar a {
+.hy2 {
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.navbar a:hover {
+.hy2:hover {
   background-color: hsl(0, 57%, 97%);
   color: black;
 }
