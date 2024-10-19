@@ -1,6 +1,6 @@
 ---
 title: Contact Info
-layout: apge
+layout: page
 filename: page2
 --- 
 
