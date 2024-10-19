@@ -1,0 +1,21 @@
+@import "{{ site.theme }}";
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+  }
