@@ -1,7 +1,7 @@
-@import "jekyll-theme-slate";
+@import "{{site.theme}}";
 
 .header {
-  background: url(assets\images\sidebar-bg.jpg);
+  background: url(../images/sidebar-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
