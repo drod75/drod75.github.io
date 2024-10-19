@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <body>
+  <header>
     <nav>
       <ul>
         {% for page in site.pages %}
@@ -8,6 +8,8 @@
         {% endfor %}
       </ul>
     </nav>
+  </header>
+  <body>
     {{ content }}
   </body>
 </html>
