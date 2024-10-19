@@ -1,7 +1,7 @@
 ---
 title: Contact Info
 layout: template
-filename: contacts
+filename: page1
 --- 
 
 ## Contact Info

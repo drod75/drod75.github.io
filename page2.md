@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: template
-filename: projects
+filename: page2
 --- 
 
 ## Project Info
