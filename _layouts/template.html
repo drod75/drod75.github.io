@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<body>
-<nav>
-    <ul>
+  <body>
+    <nav>
+      <ul>
         {% for page in site.pages %}
-            <a href={{ page.filename }}>{{ page.title }}</a>
+        <a href="{{" page.filename }}>{{ page.title }}</a>
         {% endfor %}
-    </ul>
-</nav>
-{{ content }}
-</body>
+      </ul>
+    </nav>
+    {{ content }}
+  </body>
 </html>
