@@ -1,6 +1,6 @@
 ---
 title: Contact Info
-layout: base
+layout: default
 filename: page2
 --- 
 
