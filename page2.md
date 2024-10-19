@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: template
+layout: page
 filename: page2
 --- 
 

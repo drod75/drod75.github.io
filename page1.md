@@ -1,6 +1,6 @@
 ---
 title: Contact Info
-layout: template
+layout: page
 filename: page1
 --- 
 
