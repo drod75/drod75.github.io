@@ -1,5 +1,11 @@
 @import "{{ site.theme }}";
 
+.header {
+  background: url(assets\images\sidebar-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navbar {
   list-style-type: none;
   padding: 0px;
