@@ -24,7 +24,7 @@
           <nav class="'navbar">
             <ul>
               {% for page in site.pages %}
-                <a href={{ page.filename }}>{{ page.title }}</a>
+                <li><a href={{ page.filename }}>{{ page.title }}</a></li>
               {% endfor %}
             </ul>
           </nav>

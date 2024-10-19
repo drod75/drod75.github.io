@@ -27,4 +27,8 @@
   background-color: hsl(0, 20%, 97%);
 }
 
+.navbar li {
+  float: center;
+}
+
 @import "{{ site.theme }}";
