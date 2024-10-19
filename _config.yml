@@ -19,9 +19,9 @@ menu:
   - title:             Home
     url:               index.md
   - title:             Projects
-    url:               /pages/page1.md
+    url:               /page1.md
   - title:             Contact Info
-    url:               /pages/page2.md
+    url:               page2.md
 
 #misc.
 show_downloads: False

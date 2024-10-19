@@ -2,9 +2,6 @@
 title: Home
 layout: default
 filename: index
-remote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme
 --- 
 
 ## Introduction 
