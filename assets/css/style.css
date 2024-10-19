@@ -6,6 +6,7 @@
   margin: 0px;
   display: inline-flex;
   overflow: hidden;
+  text-align: center;
 }
 
 .navbar a {
@@ -19,9 +20,4 @@
 .navbar a:hover {
   background-color: hsl(0, 57%, 97%);
   color: black;
-}
-
-.link-style1 a {
-  color: blue;
-  text-decoration: underline;
 }
