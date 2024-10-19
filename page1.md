@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: default
+layout: base
 filename: page1
 --- 
 
