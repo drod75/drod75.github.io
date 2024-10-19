@@ -1,4 +1,5 @@
-@import "{{site.theme}}";
+---
+---
 
 .header {
   background: url(../images/sidebar-bg.jpg);
@@ -27,3 +28,5 @@
   background-color: hsl(0, 57%, 97%);
   color: black;
 }
+
+@import "{{ site.theme }}";
