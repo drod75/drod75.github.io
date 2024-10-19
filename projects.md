@@ -1,7 +1,7 @@
 ---
-title: PAGE TITLE HERE
+title: Projects
 layout: template
-filename: NAME OF THIS .md FILE HERE
+filename: projects
 --- 
 
 ## Project Info

@@ -1,7 +1,7 @@
 ---
-title: PAGE TITLE HERE
+title: Contact Info
 layout: template
-filename: NAME OF THIS .md FILE HERE
+filename: contacts
 --- 
 
 ## Contact Info

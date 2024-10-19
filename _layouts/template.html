@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-{{ content }}
 <nav>
     <ul>
         {% for page in site.pages %}
+            <a href=howto>How To</a>
             <a href={{ page.filename }}>{{ page.title }}</a>
         {% endfor %}
     </ul>
 </nav>
-
+{{ content }}
 </body>
 </html>
