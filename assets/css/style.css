@@ -20,3 +20,16 @@
 }
 
 @import "{{ site.theme }}";
+
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.5;
+}
