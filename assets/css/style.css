@@ -32,4 +32,8 @@
   opacity: 0.5;
 }
 
+.navbar li {
+  float: left;
+}
+
 @import "{{ site.theme }}";
