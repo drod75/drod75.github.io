@@ -21,12 +21,11 @@
   display: block;
   color: whitesmoke;
   text-align: center;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .navbar a:hover {
   color: black;
   background-color: whitesmoke; /* White background with 50% opacity */
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 25px;
 }
