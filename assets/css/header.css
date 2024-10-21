@@ -25,7 +25,8 @@
 }
 
 .navbar a:hover {
-  background-color: whitesmoke; /* White background with 50% opacity */
-  border-radius: 25px;
   color: black;
+  background-color: whitesmoke; /* White background with 50% opacity */
+  opacity: 0.5;
+  border-radius: 25px;
 }
