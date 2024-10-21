@@ -1,14 +1,3 @@
-#header_wrap.outer {
-    background-color: white;
-    opacity: 0;
-}
-
-#header_wrap.bg-image {
-    background-color: white;
-    opacity: 0;
-    background-image: url("../images/sidebar-bg.jpg");
-}
-
 .navbar {
   color: whitesmoke;
   text-align: center; /* Center the navbar content */
