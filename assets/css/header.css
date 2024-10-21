@@ -1,3 +1,8 @@
+#header_wrap {
+    background-color: white;
+    opacity: 0;
+}
+
 #header_wrap.bg-image {
     background-color: white;
     opacity: 0;
