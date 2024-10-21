@@ -19,8 +19,6 @@
   background-color: hsl(0, 20%, 97%);
 }
 
-@import "{{ site.theme }}";
-
 .navbar a {
   text-decoration: none;
   padding: 15px;
@@ -33,3 +31,5 @@
   background-color: white;
   opacity: 0.5;
 }
+
+@import "{{ site.theme }}";
