@@ -3,31 +3,32 @@
 
 .navbar {
   color: whitesmoke;
+  text-align: center; /* Center the navbar content */
 }
 
 .navbar ul {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   display: inline-flex;
-  overflow: hidden;
+  justify-content: center; /* Center the list items horizontally */
+}
+
+.navbar li {
+  display: inline-block; /* Keep list items on one line */
 }
 
 .navbar a {
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 15px;
   display: block;
-  text-align: center;
+  color: whitesmoke;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .navbar a:hover {
-  background-color: white;
-  opacity: .50;
+  background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
   border-radius: 25px;
-}
-
-.navbar li {
-  float: inline-start;
 }
 
 @import "{{ site.theme }}";
