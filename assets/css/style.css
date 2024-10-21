@@ -1,6 +1,5 @@
-
-
-@import "{{ site.theme }}";
+---
+---
 
 .navbar {
   color: whitesmoke;
@@ -30,3 +29,5 @@
 .navbar li {
   float: inline-start;
 }
+
+@import "{{ site.theme }}";
