@@ -1,10 +1,12 @@
 ---
 ---
 
-.outer {
-  background: url(../images/sidebar-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-flex;
+  overflow: hidden;
 }
 
 .navbar a {
@@ -19,21 +21,8 @@
   background-color: hsl(0, 20%, 97%);
 }
 
-.navbar a {
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
-}
-
-.navbar a:hover {
-  border-radius: 25px;
-  background-color: white;
-  opacity: 0.5;
-}
-
 .navbar li {
-  float: left;
+  float: center;
 }
 
 @import "{{ site.theme }}";
