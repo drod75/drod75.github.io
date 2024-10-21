@@ -1,4 +1,6 @@
 #header_wrap.outer.bg-image {
+    background-color: white;
+    opacity: 0;
     background-image: url("../images/sidebar-bg.jpg");
 }
 
