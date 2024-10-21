@@ -1,3 +1,7 @@
+header {
+    background-image: url("../images/sidebar-bg.jpg");
+}
+
 .navbar {
   color: whitesmoke;
   text-align: center; /* Center the navbar content */
@@ -9,10 +13,6 @@
   margin: 0;
   display: inline-flex;
   overflow: hidden;
-}
-
-.navbar li {
-  float: inline-start; /* Keep list items on one line */
 }
 
 .navbar a {
