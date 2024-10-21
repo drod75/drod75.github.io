@@ -1,14 +1,6 @@
 ---
 ---
 
-.navbar ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  display: inline-flex;
-  overflow: hidden;
-}
-
 .navbar a {
   color: rgb(15, 15, 15);
   text-decoration: none;
@@ -19,10 +11,6 @@
 
 .navbar a:hover {
   background-color: hsl(0, 20%, 97%);
-}
-
-.navbar li {
-  float: center;
 }
 
 @import "{{ site.theme }}";
