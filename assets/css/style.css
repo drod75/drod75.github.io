@@ -32,3 +32,33 @@
 }
 
 @import "{{ site.theme }}";
+
+.navbar {
+  color: whitesmoke;
+  text-align: center; /* Center the navbar content */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center; /* Center the list items horizontally */
+}
+
+.navbar li {
+  display: inline-block; /* Keep list items on one line */
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  color: whitesmoke;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  background-color: whitesmoke; /* White background with 50% opacity */
+  border-radius: 25px;
+}
