@@ -25,3 +25,16 @@
   opacity: 0.7;
   border-radius: 25px;
 }
+
+#project_title.center{
+  text-align: center;
+}
+
+#project_tagline.center{
+  text-align: center;
+}
+
+#header_wrap{
+  background-image: url(../images/sidebar-bg.jpg);
+  background-repeat: 0;
+}
