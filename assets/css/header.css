@@ -35,6 +35,6 @@
 }
 
 #header_wrap{
-  background: #000000 url(images/noise_int.png) center;
+  background: white url(images/noise_int.png) center;
   background-repeat: 0;
 }
