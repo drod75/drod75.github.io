@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap between flexboxes as needed */
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 10px); /* Adjust width for each flexbox and gap */
+  border: 2px solid black; /* Add black border to flexboxes */
+}
+
+.flexbox > div {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between columns as needed */
+  margin-bottom: 10px; /* Adjust the margin between rows as needed */
+  background-color: lightgray; /* Add grey background to columns */
+  padding: 10px;
+}
+
+.picture {
+  width: 100px; /* Adjust the image width as needed */
+  height: 100px; /* Adjust the image height as needed */
+  object-fit: cover;
+}
+
+.title {
+  font-weight: bold;
+}
