@@ -1,0 +1,29 @@
+.item {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  flex: 50%;
+  box-shadow: 0 0 0 1px black;
+  margin-bottom: 10px;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-picture {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.flex-text {
+  text-align: center;
+}
