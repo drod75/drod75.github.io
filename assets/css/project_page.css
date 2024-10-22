@@ -1,5 +1,5 @@
 .item {
-  width: 100%;
+  width: 50%;
 }
 
 .container {
@@ -9,7 +9,7 @@
 
 .container > div {
   flex: 50%;
-  box-shadow: 0 0 0 1px black;
+  border-color: black;
   margin-bottom: 10px;
 }
 
