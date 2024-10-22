@@ -10,6 +10,7 @@
 .container > div {
   flex: 50%;
   border-color: black;
+  background-color: gainsboro;
   margin-bottom: 10px;
 }
 
