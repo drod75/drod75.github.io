@@ -9,9 +9,9 @@
 
 .item {
   background-color: gray;
-  border-color: aqua;
+  border-color: black;
   border-radius: 10px;
-  border-style: solid;
+  border-style: dashed;
   border-width: thick;
 
   margin-top: 0px;
@@ -42,7 +42,7 @@
 }
 
 .pa-p {
-  font-size: 20px;
+  font-size: 15px;
   height: 200px;
   padding: 0px;
 }
