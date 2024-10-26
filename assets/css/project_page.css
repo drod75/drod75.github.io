@@ -4,8 +4,7 @@
   align-items: flex-start;
   gap: 40px;
   flex-wrap: wrap;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-top: 25px;
 }
 
 .item {
@@ -14,7 +13,9 @@
   border-radius: 10px;
   border-style: solid;
   border-width: thick;
-  margin-top: 25px;
+
+  margin-top: 0px;
+  margin-bottom: 25px;
 
   display: flex;
   align-items: center;
@@ -35,13 +36,13 @@
 .pa-h1 {
   height: 35px;
   padding: 0px;
-  font-size: 12px;
+  font-size: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .pa-p {
-  font-size: 34px;
+  font-size: 25px;
   height: 200px;
   padding: 0px;
 }
