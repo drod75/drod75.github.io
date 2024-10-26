@@ -9,9 +9,9 @@
 
 .item {
   background-color: gray;
-  border-color: black;
+  border-color: rgb(206, 202, 202);
   border-radius: 10px;
-  border-style: dashed;
+  border-style: solid;
   border-width: thick;
 
   margin-top: 0px;
