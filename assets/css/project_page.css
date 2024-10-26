@@ -35,12 +35,14 @@
 .pa-h1 {
   height: 35px;
   padding: 0px;
+  font-size: 24pt;
   margin-top: 6px;
   margin-bottom: 0px;
   padding: 0px;
 }
 
 .pa-p {
+  font-size: 34pt;
   height: 200px;
   padding: 0px;
 }
