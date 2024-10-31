@@ -36,6 +36,9 @@
 }
 
 .pa-h1 {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: orange;
   height: 35px;
   padding: 0px;
   font-size: 20px;
