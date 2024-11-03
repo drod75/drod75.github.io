@@ -14,5 +14,3 @@ These are the various ways I can be contacted, feel free to send me a Linkedin m
 * [Linkedin](https://www.linkedin.com/in/david-rodriguez-486b95208/)
 
 * E-mail: [dr507498@gmail.com](mailto:dr507498@gmail.com)
-
-* Work Phone number: [347-454-6480](3474546480)
