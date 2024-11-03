@@ -6,6 +6,6 @@
 } 
 iframe { 
     width: 80%;            /* Adjust width as needed */ 
-    height: 80%;           /* Adjust height as needed */ 
+    height: 100%;           /* Adjust height as needed */ 
     border: none;          /* Optional: remove border */ 
 }
