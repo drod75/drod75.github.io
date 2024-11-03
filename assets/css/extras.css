@@ -1,3 +1,11 @@
-iframe {
-  align-items: center;
+.i-container { 
+    display: flex; 
+    justify-content: center; /* Centers horizontally */ 
+    align-items: center;    /* Centers vertically */ 
+    height: 100vh;         /* Full viewport height */ 
+} 
+iframe { 
+    width: 80%;            /* Adjust width as needed */ 
+    height: 80%;           /* Adjust height as needed */ 
+    border: none;          /* Optional: remove border */ 
 }
