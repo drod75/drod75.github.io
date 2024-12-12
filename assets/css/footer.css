@@ -1,9 +1,3 @@
-.footer-whole  {
-  display: flex; 
-  justify-content: space-evenly;
-  margin-top: 0px;
-}
-
 .social-links ul {
   list-style-type: none;
   padding: 0;
