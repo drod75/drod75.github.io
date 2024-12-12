@@ -25,6 +25,19 @@ menu:
   - title:             Contact Info
     url:               page2.md
 
+#social
+socials:
+  - name: 'LinkedIn'
+    url: https://www.linkedin.com/in/david-rodriguez-486b95208/
+  - name: 'Github'
+    url: https://github.com/drod75
+  - name: 'Kaggle'
+    url: https://www.kaggle.com/drod75
+  - name: 'Hugging Face'
+    url: https://huggingface.co/drod75
+  - name: 'Email'
+    url: mailto:dr507498@gmail.com
+
 #misc.
 url: "https://drod75.github.io/"
 show_downloads: False

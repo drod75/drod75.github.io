@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/footer.css">
+<footer>
+    <div class="social-links">
+      <ul>
+        {% for social in site.socials %}
+          <li>
+            <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer">
+              {{ social.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <p>&copy; {{ 'now' | date: "%Y" }} Your Website. All rights reserved.</p>
+  </footer>
