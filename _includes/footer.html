@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/footer.css">
-<footer>
+<footer style="display: inflex;">
     <div class="social-links">
         <ul>
             {% for social in site.socials %}
@@ -13,6 +13,7 @@
             {% endfor %}
         </ul>
     </div>
-    <p>&copy; {{ 'now' | date: "%Y" }} Your Website. All rights reserved.</p>
+    <p style="align-content: center;">&copy; {{ 'now' | date: "%Y" }} Your Website. All rights reserved.</p>
+    <p style="align-content: right;">Published with <a href="https://pages.github.com">GitHub Pages</a></p>
 </footer>
 </html>

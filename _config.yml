@@ -25,6 +25,14 @@ menu:
   - title:             Resume
     url:               page2.md
 
+pages:
+  - title: Home
+    filename: index.md
+  - title: Projects
+    filename: page1.md
+  - title: Resume
+    filename: page2.md
+
 #social
 socials:
   - name: 'LinkedIn'
