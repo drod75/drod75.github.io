@@ -1,13 +1,10 @@
 .social-links ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
   display: inline-flex;
+  overflow: hidden;
   gap: 10px;
-}
-
-.social-links li {
-  display: inline;
 }
 
 .social-links a {
