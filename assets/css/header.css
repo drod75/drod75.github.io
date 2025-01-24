@@ -60,6 +60,15 @@
   justify-content: space-between;
 }
 
+.header-image {
+  border: none; 
+  border-style: none;
+  margin-top: 0px;
+  padding: 0px;
+  border: none;
+  border-style: none;
+}
+
 #project_title.center{
   text-align: center;
 }
