@@ -55,6 +55,11 @@
   border-radius: 25px;
 }
 
+.info-box {
+  display: flex; 
+  justify-content: space-between;
+}
+
 #project_title.center{
   text-align: center;
 }
