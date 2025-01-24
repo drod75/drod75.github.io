@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" media="screen"
     href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/header.css">
+  <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/bio.css">
 
   {% seo %}
   {% include head-custom.html %}
@@ -24,9 +25,9 @@
 
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
-    <section id="main_content" class="inner">
+    <div class="main-bio">
       {{ content }}
-    </section>
+    </div>
   </div>
 
   <!-- FOOTER  -->
