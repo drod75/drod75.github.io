@@ -56,29 +56,40 @@
 }
 
 .info-box {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
+  width: 75%;
 }
 
 .header-image {
-  border: none; 
-  border-style: none;
-  margin-top: 0px;
-  padding: 0px;
-  border-radius: 50%;
+  width: 35%; /* Adjust width as needed */
+  height: 35%; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image round */
+  margin-right: 20px; /* Adjust spacing as needed */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border: none;
+  box-shadow: none;
 }
 
-#project_title.center{
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  width: 70%;
+}
+
+#project_title.center {
   text-align: center;
 }
 
-#project_tagline.center{
+#project_tagline.center {
   text-align: center;
 }
 
-#header_wrap{
+#header_wrap {
   background: url(../images/sidebar-bg.jpg) center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
