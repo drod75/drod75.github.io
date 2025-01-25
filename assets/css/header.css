@@ -31,12 +31,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
-  max-width: 100%;
+  gap: 50px;
 }
 
 .header-image {
-  max-width: 45%; /* Adjust width as needed */
+  max-width: 30%; /* Adjust width as needed */
   max-height: 120px; /* Maintain aspect ratio */
   border-radius: 50%; /* Make the image round */
   object-fit: cover; /* Ensure the image covers the area without distortion */
@@ -68,4 +67,5 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  max-height: 150px;
 }
