@@ -14,7 +14,7 @@
 
 .socials a {
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 10px 5px;
   display: block;
   color: whitesmoke;
   text-align: center;
@@ -31,11 +31,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  padding: 5px;
+  max-width: 100%;
 }
 
 .header-image {
-  max-width: 30%; /* Adjust width as needed */
+  max-width: 45%; /* Adjust width as needed */
   max-height: 120px; /* Maintain aspect ratio */
   border-radius: 50%; /* Make the image round */
   object-fit: cover; /* Ensure the image covers the area without distortion */
