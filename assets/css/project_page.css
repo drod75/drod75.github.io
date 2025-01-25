@@ -18,12 +18,12 @@
   flex-direction: column;
 
   height: 600px;
-  width: 400px;
+  width: 350px;
 }
 
 .post-article {
   color: white;
-  width: 400px;
+  width: 350px;
   text-align: center;
   padding: 0px;
 }
