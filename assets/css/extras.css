@@ -2,7 +2,7 @@
     display: flex; 
     justify-content: center; /* Centers horizontally */ 
     align-items: center;    /* Centers vertically */ 
-    min-height: 100vh;         /* Minimum viewport height, allows content to expand */
+    height: 150vh;         /* Full viewport height */ 
 } 
 iframe { 
     width: 80%;            /* Adjust width as needed */ 
