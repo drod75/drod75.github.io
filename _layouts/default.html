@@ -8,8 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen"
-    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/base.css' | relative_url }}">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/header.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/project_page.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/bio.css">
@@ -34,6 +33,18 @@
     <div>
       <h2 id="introduction" style="margin-left: 40px; margin-right: 40px;">Projects</h2>    
     </div>
+   <div class="container">
+     {% for project in site.data.projects %}
+     <section width="100%" class="item">
+       <img height="350" width="100%" class="project-image" src="{{ project.image }}" alt="{{ project.title }}">
+       <h1 class="post-article project-title"><a style="color: white;" href="{{ project.link }}">{{ project.title }}</a>
+       </h1>
+       <p class="post-article project-description">
+         {{ project.description }}
+       </p>
+     </section>
+     {% endfor %}
+   </div>
     <div class="container">
       <!-- CTP FALL SEMESTER PROJECT -->
       <section width="100%" class="item">
