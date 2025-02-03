@@ -1,0 +1,78 @@
+- title: FOOD CHAIN
+  link: https://linktr.ee/classifycrew
+  image: assets/images/logo-transformed.jpeg
+  description: |
+    The project aims to use machine learning and computer vision techniques to analyze food images and
+    identify them. By using diverse datasets, the model will learn to recognize dishes based on visual
+    features. Our project aims to inform users about what it is they are eating, including potential
+    nutritional value and an AI generated response on how their dish might have been prepared. We want
+    users to have an easy way to figure out what their favorite foods contain, to know any allergens in the
+    food and to better connect to the food around them. This tool can also tell users the calories of their
+    dish, they can figure out the nutrients with only a few steps!
+
+- title: CUNY TECH PREP HACKATHON
+  link: https://ctp-hacks-2024.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio
+  image: assets/images/full_width.jpg
+  description: |
+    CUNY provides resources to address students’ mental health, food insecurity, housing instability,
+    and other basic needs in order for learning to thrive. Given that CUNY has developed ways to
+    address these issues, the University wants to ensure students are aware of the availability
+    and means to access these crucial resources and services. Although numerous resources exist, such as
+    food pantries, counseling centers, and referral sources, many eligible students do not utilize
+    them to their full potential. The primary objective of all hackers is to answer the following question:
+    How can CUNY increase awareness through digital and mobile outlets and ultimately increase
+    usage of essential resources to meet students’ “essential needs”?
+
+- title: QUEENS COLLEGE HACK KNIGHT HACKATHON
+  link: https://hack-knight.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Recently+ended
+  image: assets/images/hack_knight.jpg
+  description: |
+    Hack Knight is a dynamic gathering of creative minds and tech enthusiasts where participants
+    collaborate intensively on projects, competing for certificates and recognition. Our event serves
+    as a catalyst for innovation, fostering connections and driving forward-thinking solutions.
+    We are also using this event to segway into bigger hackathons for Queens College students, and would
+    love CS QC student support on this event!
+
+- title: COURSERA IBM DATA ANALYST CAPSTONE
+  link: https://www.coursera.org/account/accomplishments/verify/YUYM2LXP34Z3
+  image: assets/images/CERTIFICATE.jpg
+  description: |
+    The Stack Overflow Developer Survey aims to find out more about developers, and their
+    favorite tools as well as languages. The problem this survey faces is the various backgrounds
+    of the people who answered the survey, as well as any common trends in the tech industry
+    that are important to highlight. This can range from anything gender related, to even any
+    tool problem that is being unnoticed that can be highlighted by the survey. The questions that
+    are being asked are ones that range across a person's background in tech, so their favorite
+    languages, databases, and which ones they want to learn. Some other questions are also what are
+    a person's gender, education level, country, and of course gender.
+
+- title: MTA STREAMLIT APP
+  link: https://github.com/drod75/mta_train_data
+  image: assets/images/image.jpg
+  description: |
+    This link leads to a github repositories that aims to provide readers on the MTA and the various
+    lines that it consists of, this includes analyzing ridership and looking at how each borough interacts
+    with the MTA as a whole. Currently this repo has a line map, various heat maps you can choose from,
+    and a view of the Data I use which is from the MTA itself thanks to its open data initiative.
+
+- title: CUNY TECH PREP HOMEWORK
+  link: https://github.com/drod75/my-fork-DS-fri-1230
+  image: assets/images/ctp-logo-square.6a1210b7.jpg
+  description: |
+    This link leads to a github repository where I work on my CUNY Tech Prep homework, the homework is from the
+    Data Science track
+    and consists of using various python apis such as pandas, jupyter notebooks, matplotlib, searborn, tensorflow,
+    and scikit learn.
+    The homework every week tests ones dedication to Data Science and making sure they keep on putting to work the
+    skills
+    and tools a Data Scientist in all fields would use, thank you to CUNY Tech prep for some great work!
+
+- title: BROOKLYN COLLEGE CISC HOMEWORK
+  link: https://github.com/drod75?tab=repositories&q=cisc&type=&language=&sort=
+  image: assets/images/Featured.jpg
+  description: |
+    This link leads to a github repositories search that shows the current repos where I have the
+    homework down from my Computer Science classes, among these are the courses 1215, 3220, and 3115.
+    The homework mainly consists of 3115 which is java homework, 3220 which is some varying OS related
+    homework, and 1215 consists of python homework. Thank you and please do not copy the homework if
+    you are taking the classes, have a nice day!
