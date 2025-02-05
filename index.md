@@ -47,6 +47,7 @@ Feel free to explore my portfolio to see the projects I’ve been working on and
 <br/>
 
 ## Skills
+My skills range from the following, many of which are backed by certificates on my LinkedIn!
 
 
 
