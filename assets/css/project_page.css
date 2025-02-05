@@ -30,7 +30,7 @@
 
 .pa-img {
   margin-top: 0px;
-  padding: 0px;
+  padding: 0px !important;
   border: none;
   border-style: none;
 }
