@@ -18,12 +18,12 @@
   flex-direction: column;
 
   height: 600px;
-  width: 350px;
+  width: 300px;
 }
 
 .post-article {
   color: white;
-  width: 350px;
+  width: 300px;
   text-align: center;
   padding: 0px;
 }
@@ -40,13 +40,14 @@
   text-decoration-color: orange;
   height: 35px;
   padding: 0px;
-  font-size: 20px;
+  font-size: 13pt;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .pa-p {
-  font-size: 12px;
+  font-size: 8pt;
   height: 200px;
   padding: 0px;
+  width: 95%;
 }

@@ -11,30 +11,14 @@
             <h1 id="project_title" class="center">David Rodriguez</h1>
             <nav class="socials">
                 <ul>
+                    {% for link in site.data.links %}
                     <li>
-                        <a href="https://drive.google.com/file/d/1KonBTjoFPK_--7S03210rA4weh5lgDl0/view?usp=drive_link">
-                            <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
-                            <p>Resume</p>
+                        <a href="{{ link.url }}">
+                            <i class="{{ link.icon }}" aria-hidden="true"></i>
+                            <p>{{ link.title }}</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/david-rodriguez-nyc/">
-                            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                            <p>LinkedIn</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/drod75">
-                            <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
-                            <p>Github</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:dr507498@gmail.com">
-                            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                            <p>Email</p>
-                        </a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </nav>
         </div>
