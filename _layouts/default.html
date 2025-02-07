@@ -13,7 +13,6 @@
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/header.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/project_page.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/bio.css">
-  <link href="./assets/css/output.css" rel="stylesheet">
 
   {% seo %}
   {% include head-custom.html %}
@@ -21,15 +20,15 @@
 
 <body>
   <!-- HEADER -->
-  <div id="header_wrap" class="outer bg-[url('../assets/images/sidebar-bg.jpg')] bg-center bg-no-repeat bg-cover max-h-[150px]">
-      {% include header.html %}
-    </div>
+  <div id="header_wrap" class="outer">
+    {% include header.html %}
+  </div>
 
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
-    <div class="p-10">
-          {{ content }}
-        </div>
+    <div class="main-bio">
+      {{ content }}
+    </div>
 
     <!-- PROJECTS TITLE -->
     <div>
@@ -40,7 +39,7 @@
     <div class="container">
       {% for project in site.data.projects %}
       <section width="100%" class="item">
-        <img height="350" width="100%" class="pa-image" src="{{ project.image }}" alt="{{ project.title }}">
+        <img style="margin-top: 0px; padding: 0px;" height="350" width="100%" class="pa-image" src="{{ project.image }}" alt="{{ project.title }}">
         <h1 class="post-article pa-h1"><a style="color: white;" href="{{ project.link }}">{{ project.title }}</a>
         </h1>
         <p class="post-article pa-p">
