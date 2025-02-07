@@ -36,13 +36,16 @@
     </div>
 
     <!-- NEW PROJECTS CARDS -->
-    <div class="container">
+    <div class="container mx-auto px-4 py-8 md:grid md:grid-cols-2 md:gap-8">
       {% for project in site.data.projects %}
-      <section width="100%" class="item">
-        <img style="margin-top: 0px; padding: 0px;" height="350" width="100%" class="pa-image" src="{{ project.image }}" alt="{{ project.title }}">
-        <h1 class="post-article pa-h1"><a style="color: white;" href="{{ project.link }}">{{ project.title }}</a>
+      <section class="mb-8 md:mb-0">
+        <img class="w-full h-96 object-cover rounded-lg shadow-md" src="{{ project.image }}" alt="{{ project.title }}">
+        <h1 class="text-2xl font-bold mt-4">
+          <a class="text-blue-600 hover:text-blue-800 transition-colors duration-200" href="{{ project.link }}">
+            {{ project.title }}
+          </a>
         </h1>
-        <p class="post-article pa-p">
+        <p class="text-gray-700 mt-2">
           {{ project.description }}
         </p>
       </section>
