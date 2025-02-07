@@ -20,15 +20,15 @@
 
 <body>
   <!-- HEADER -->
-  <div id="header_wrap" class="outer">
-    {% include header.html %}
-  </div>
+  <div id="header_wrap" class="outer bg-[url('../assets/images/sidebar-bg.jpg')] bg-center bg-no-repeat bg-cover max-h-[150px]">
+      {% include header.html %}
+    </div>
 
   <!-- MAIN CONTENT -->
   <div id="main_content_wrap" class="outer">
-    <div class="main-bio">
-      {{ content }}
-    </div>
+    <div class="p-10">
+          {{ content }}
+        </div>
 
     <!-- PROJECTS TITLE -->
     <div>
@@ -36,16 +36,13 @@
     </div>
 
     <!-- NEW PROJECTS CARDS -->
-    <div class="container mx-auto px-4 py-8 md:grid md:grid-cols-2 md:gap-8">
+    <div class="container">
       {% for project in site.data.projects %}
-      <section class="mb-8 md:mb-0">
-        <img class="w-full h-96 object-cover rounded-lg shadow-md" src="{{ project.image }}" alt="{{ project.title }}">
-        <h1 class="text-2xl font-bold mt-4">
-          <a class="text-blue-600 hover:text-blue-800 transition-colors duration-200" href="{{ project.link }}">
-            {{ project.title }}
-          </a>
+      <section width="100%" class="item">
+        <img style="margin-top: 0px; padding: 0px;" height="350" width="100%" class="pa-image" src="{{ project.image }}" alt="{{ project.title }}">
+        <h1 class="post-article pa-h1"><a style="color: white;" href="{{ project.link }}">{{ project.title }}</a>
         </h1>
-        <p class="text-gray-700 mt-2">
+        <p class="post-article pa-p">
           {{ project.description }}
         </p>
       </section>
