@@ -33,6 +33,8 @@
   padding: 0px;
   border: none;
   border-style: none;
+  height: 350px;
+  width: 350px;
 }
 
 .pa-h1 {
@@ -40,7 +42,7 @@
   text-decoration-color: orange;
   height: 35px;
   padding: 0px;
-  font-size: 15pt;
+  font-size: 13pt;
   margin-top: 0px;
   margin-bottom: 0px;
 }
