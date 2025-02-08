@@ -41,7 +41,9 @@
     <div class="container">
       {% for project in site.data.projects %}
       <section width="100%" class="item">
-        <div class="pa-image" style="background-image: url('{{ project.image }}');"></div>
+        <div id="project_image">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+        </div>
         <h1 class="post-article pa-h1"><a style="color: white;" href="{{ project.link }}">{{ project.title }}</a>
         </h1>
         <p class="post-article pa-p">
