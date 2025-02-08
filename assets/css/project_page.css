@@ -1,59 +1,67 @@
+/*
+  Project Page Styles
+  This file contains styles for the project page layout and elements.
+*/
+
+/* Container Styles */
 .container {
   margin-left: 6%;
+  margin-top: 25px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  gap: 20px;  
-  flex-flow: row wrap;
-  margin-top: 25px;
+  gap: 20px;
 }
 
+/* Item Styles */
 .item {
   background-color: gray;
-
-  margin-top: 0px;
-  margin-bottom: 25px;
-
   display: flex;
-  align-items: center;
   flex-direction: column;
-
-  height: 600px;
+  align-items: center;
   width: 350px;
+  height: 600px;
+  margin-bottom: 25px;
 }
 
+/* Post Article Styles */
 .post-article {
   color: white;
-  width: 350px;
   text-align: center;
-  padding: 0px;
+  width: 350px;
+  padding: 0;
 }
 
+/* Project Image Styles */
 #project_image {
-  padding: 0px;
-  height: 350px;
   width: 350px;
+  height: 350px;
+  padding: 0;
 }
 
 #project_image img {
-  margin-top: 0px;
-  padding: 0px;
+  width: 100%;
   height: 100%;
-  width: 100%
+  margin-top: 0;
+  padding: 0;
+  object-fit: cover; /* Added to maintain image aspect ratio */
 }
+
+/* Post Article Heading Styles */
 .pa-h1 {
+  font-size: 13pt;
+  text-align: center; /* Added to center the heading */
   text-decoration: underline;
   text-decoration-color: orange;
   height: 35px;
-  padding: 0px;
-  font-size: 13pt;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: 0;
 }
 
+/* Post Article Paragraph Styles */
 .pa-p {
   font-size: 12px;
   height: 200px;
-  padding: 0px;
   width: 95%;
+  padding: 0;
 }
