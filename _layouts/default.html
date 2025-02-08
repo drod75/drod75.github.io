@@ -13,7 +13,9 @@
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/header.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/project_page.css">
   <link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/bio.css">
-
+  
+  <link href="/assets/css/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   {% seo %}
   {% include head-custom.html %}
 </head>
@@ -48,6 +50,22 @@
       </section>
       {% endfor %}
     </div>
+  </div>
+
+  <div class="container">
+    {% for project in site.data.projects %}
+    <div class="card bg-base-100 w-96 shadow-xl">
+      <figure>
+        <img
+          src="{{ project.image }}"
+          alt="{{ project.title }}"
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title"><a class="text-white hover:text-blue-400 hover: underline" href="{{ project.link }}">{{ project.title }}</a></h2>
+        <p>{{ project.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
   <!-- FOOTER  -->
