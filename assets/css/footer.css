@@ -1,47 +1,47 @@
 .footer {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-    justify-content: space-around;
-  }
-  
-  .rights-reserved {
-      align-content: center;
-      margin-top: 10px;
-      justify-content: start;
-  }
-  
-  .rr-div {
-      justify-content: space-between;
-  }
-  
-  /* SOCIALS */
-  .socials {
-    color: whitesmoke;
-    text-align: center; /* Center the navbar content */
-    margin-top: 15px;
-  }
-  
-  .socials ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-    overflow: hidden;
-  }
-  
-  .socials a {
-    text-decoration: none;
-    padding: 0px 5px;
-    display: block;
-    color: whitesmoke;
-    text-align: center;
-  }
-  
-  .socials a:hover {
-    color: #0073b1;
-    text-decoration: underline; /* White background with 50% opacity */
-    opacity: 0.7;
-    border-radius: 25px;
-  }
-  
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-around;
+  font-size: 10pt;
+}
+
+.rights-reserved {
+  align-content: center;
+  margin-top: 10px;
+  justify-content: start;
+}
+
+.rr-div {
+  justify-content: space-between;
+}
+
+/* SOCIALS */
+.socials {
+  color: whitesmoke;
+  text-align: center; /* Center the navbar content */
+  margin-top: 15px;
+}
+
+.socials ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.socials a {
+  text-decoration: none;
+  padding: 0px 5px;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.socials a:hover {
+  color: #0073b1;
+  text-decoration: underline; /* White background with 50% opacity */
+  opacity: 0.7;
+  border-radius: 25px;
+}
