@@ -14,7 +14,7 @@ I’m driven by a passion for innovation and a keen interest in exploring new op
 
 Feel free to explore my portfolio to see the projects I’ve been working on and learn more about my journey. I’m always excited to connect with like-minded individuals and explore new possibilities!
 
-## *Stats*
+## **Stats**
 <details> 
   <summary><b>💻 GitHub Profile Stats</b></summary>
   <br/>
@@ -43,6 +43,11 @@ Feel free to explore my portfolio to see the projects I’ve been working on and
 * CUNY TECH PREP Cohort 10 Member
 * CODEPATH Spring 2025 Technical Interview Prep Student
 * Brooklyn College Black and Latino Male Initiative Student
+* Undergraduate Student Government Member
+* Google Data Analytics certificate
+* IBM Data Analytics Certificate
+* UC Boulder Data Wrangling Certificate
+* UC Boulder Data Analyst Certificate
 
 <br/>
 
@@ -70,8 +75,11 @@ My skills range from the following, many of which are backed by certificates on 
 * Discrete Structures
 * Calculus
 * Object Oriented Programming
-* Robotics, Computer Ethics
+* Robotics
+* Computer Ethics
 * Data Structures
 * Computer Architecture
 * Linear Algebra
 * Statistics
+* Data Tools and Algorithms
+* Analysis of Algorithms
