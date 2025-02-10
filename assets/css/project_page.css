@@ -5,7 +5,6 @@
 
 /* Container Styles */
 .container {
-  margin-left: 6%;
   margin-top: 25px;
   display: flex;
   flex-flow: row wrap;
@@ -44,7 +43,6 @@
   height: 100%;
   margin-top: 0;
   padding: 0;
-  object-fit: cover; /* Added to maintain image aspect ratio */
 }
 
 /* Post Article Heading Styles */
