@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://drod75.github.io/assets/css/footer.css"
-  />
-  <footer class="footer">
+<link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/footer.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<footer class="footer">
     <div class="rights-reserved">
         <div class="rr-div">
             <p style="align-content: center; margin-top: 0px">
@@ -18,18 +16,19 @@
     </div>
 
     <div>
-      <nav class="socials">
-        <ul>
-          {% for link in site.data.links %}
-          <li>
-            <a href="{{ link.url }}">
-              <i class="{{ link.icon }}" aria-hidden="true"></i>
-              <p>{{ link.title }}</p>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
+        <nav class="socials">
+            <ul>
+                {% for link in site.data.links %}
+                <li>
+                    <a href="{{ link.url }}">
+                        <i class="{{ link.icon }}" aria-hidden="true"></i>
+                        <p>{{ link.title }}</p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
     </div>
-  </footer>
+</footer>
+
 </html>
