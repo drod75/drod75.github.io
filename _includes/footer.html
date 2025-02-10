@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="https://drod75.github.io/assets/css/footer.css">
-<footer style="display: flex; justify-content: space-evenly; margin-top: 0px;">
-    <p style="align-content: center; margin-top: 0px;">&copy; {{ 'now' | date: "%Y" }} Your Website. All rights reserved.</p>
-    <p style="align-content: right; margin-top: 0px;">Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-</footer>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://drod75.github.io/assets/css/footer.css"
+  />
+  <footer class="footer">
+    <div class="rights-reserved">
+        <div class="rr-div">
+            <p style="align-content: center; margin-top: 0px">
+                &copy; {{ 'now' | date: "%Y" }} Your Website. All rights reserved.
+            </p>
+            <p style="align-content: right; margin-top: 0px">
+                Published with <a href="https://pages.github.com">GitHub Pages</a>
+            </p>
+        </div>
+    </div>
+
+    <div>
+      <nav class="socials">
+        <ul>
+          {% for link in site.data.links %}
+          <li>
+            <a href="{{ link.url }}">
+              <i class="{{ link.icon }}" aria-hidden="true"></i>
+              <p>{{ link.title }}</p>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </html>
