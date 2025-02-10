@@ -1,9 +1,7 @@
 .footer {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: space-around;
-  font-size: 10pt;
+  font-size: 15px;
 }
 
 .rights-reserved {
