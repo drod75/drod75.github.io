@@ -4,7 +4,7 @@
 */
 
 /* Container Styles */
-.container {
+.card-container {
   margin-top: 25px;
   margin-bottom: 50px;
   margin-left: 15px;
@@ -16,7 +16,7 @@
 }
 
 /* Item Styles */
-.item {
+.project-card {
   background-color: gray;
   display: flex;
   flex-direction: column;
@@ -27,35 +27,35 @@
   transition: color 0.5, background-color 0.5s;
 }
 
-.item:hover {
+.project-card:hover {
   transform: scale(1.1);
   filter: drop-shadow(10px 10px 20px rgba(36, 36, 36, 0.5));
 }
 
-/* Post Article Styles */
-.post-article {
-  color: white;
-  text-align: center;
-  width: 350px;
-  padding: 0;
-}
-
 /* Project Image Styles */
-#project_image {
+.project-image {
   width: 100%;
   height: 350px;
   padding: 0;
 }
 
-#project_image img {
+.project-image img {
   width: 100%;
   height: 100%;
   margin-top: 0;
   padding: 0;
 }
 
+/* Post Article Styles */
+.project-text {
+  color: white;
+  text-align: center;
+  width: 350px;
+  padding: 0;
+}
+
 /* Post Article Heading Styles */
-.pa-h1 {
+.project-header {
   font-size: 13pt;
   text-align: center; /* Added to center the heading */
   text-decoration: underline;
@@ -63,10 +63,24 @@
   height: 35px;
   margin: 0;
   padding: 0;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.project-header:hover {
+  text-decoration-color: #0073b1;
+}
+
+.project-header a {
+  color: white;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.project-header a:hover {
+  color: #0073b1;
 }
 
 /* Post Article Paragraph Styles */
-.pa-p {
+.project-paragraph {
   font-size: 8pt;
   height: 200px;
   width: 95%;
