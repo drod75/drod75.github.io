@@ -63,7 +63,7 @@
   height: 35px;
   margin: 0;
   padding: 0;
-  transition: color 0.3s, background-color 0.3s;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .project-header:hover {
@@ -72,7 +72,7 @@
 
 .project-header a {
   color: white;
-  transition: color 0.3s, background-color 0.3s;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .project-header a:hover {

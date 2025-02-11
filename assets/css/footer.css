@@ -35,7 +35,7 @@
   display: block;
   color: whitesmoke;
   text-align: center;
-  transition: color 0.3s, background-color 0.3s;
+  transition: color 0.5s, background-color 0.5s;
 }
 
 .socials a:hover, .socials a p:hover {
