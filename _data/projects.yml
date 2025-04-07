@@ -14,14 +14,12 @@
   link: https://ctp-hacks-2024.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio
   image: assets/images/full_width.jpg
   description: |
-    CUNY provides resources to address students’ mental health, food insecurity, housing instability,
+    CUNY provides resources to address students mental health, food insecurity, housing instability,
     and other basic needs in order for learning to thrive. Given that CUNY has developed ways to
     address these issues, the University wants to ensure students are aware of the availability
-    and means to access these crucial resources and services. Although numerous resources exist, such as
-    food pantries, counseling centers, and referral sources, many eligible students do not utilize
-    them to their full potential. The primary objective of all hackers is to answer the following question:
+    and means to access these crucial resources and services. The primary objective of all hackers is to answer the following question:
     How can CUNY increase awareness through digital and mobile outlets and ultimately increase
-    usage of essential resources to meet students’ “essential needs”?
+    usage of essential resources to meet students “essential needs”?
 
 - title: QUEENS COLLEGE HACK KNIGHT
   link: https://hack-knight.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Recently+ended
@@ -43,8 +41,7 @@
     that are important to highlight. This can range from anything gender related, to even any
     tool problem that is being unnoticed that can be highlighted by the survey. The questions that
     are being asked are ones that range across a person's background in tech, so their favorite
-    languages, databases, and which ones they want to learn. Some other questions are also what are
-    a person's gender, education level, country, and of course gender.
+    languages, databases, and which ones they want to learn. 
 
 - title: MTA STREAMLIT APP
   link: https://github.com/drod75/mta_train_data
