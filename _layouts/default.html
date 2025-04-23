@@ -1,58 +1,51 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
-
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
-  <head>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
-    </style>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% seo %}
-    {% include head-custom.html %}
-  </head>
-</head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"> <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  {% seo %}
+  {% include head-custom.html %}
+
+  <title>{{ page.title | default: site.title }} - {{ site.name }}</title> </head>
 
 <body>
-  <!-- HEADER -->
-  <div id="header_wrap" class="outer">
+  <header id="header_wrap" class="outer">
     {% include header.html %}
-  </div>
+  </header>
 
-  <!-- MAIN CONTENT -->
-  <div id="main_content_wrap" class="outer">
+  <main id="main_content_wrap" class="outer">
     <div class="main-bio">
       {{ content }}
     </div>
 
-    <!-- PROJECTS TITLE -->
     <div>
-      <h2 id="introduction" style="margin-left: 40px; margin-right: 40px; font-weight: bold;">Projects</h2>
+      <h2 id="projects-title" class="section-title">Projects</h2>
     </div>
 
-    <!-- NEW PROJECTS CARDS -->
     <div class="card-container">
       {% for project in site.data.projects %}
-      <section width="100%" class="project-card">
+      <section class="project-card">
         <div class="project-image">
           <img src="{{ project.image }}" alt="{{ project.title }}">
         </div>
-        <h1 class="project-text project-header"><a href="{{ project.link }}">{{ project.title }}</a>
-        </h1>
+        <h3 class="project-text project-header"><a href="{{ project.link }}">{{ project.title }}</a></h3> {# Changed h1 to h3 for better heading hierarchy #}
         <p class="project-text project-paragraph">
           {{ project.description }}
         </p>
       </section>
       {% endfor %}
     </div>
-  </div>
+  </main>
 
-  <!-- FOOTER  -->
-  <div id="footer_wrap" class="outer">
+  <footer id="footer_wrap" class="outer">
       {% include footer.html %}
-  </div>
-</body>
+  </footer>
 
+</body>
 </html>

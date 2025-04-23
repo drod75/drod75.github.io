@@ -92,6 +92,19 @@
   }
   
   /* --- Project Card Styles (`project_page.css`) --- */
+  /* assets/css/main.css */
+
+/* ... (other styles) ... */
+
+/* --- Section Titles --- */
+  .section-title {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+    font-weight: bold;
+    /* Add other title styling as needed (e.g., font-size, color) */
+  }
+  
   .card-container {
     margin: 25px 15px 50px; /* Combined margin shorthand */
     display: flex;
