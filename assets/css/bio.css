@@ -1,3 +1,15 @@
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
 .main-bio {
     padding: 40px;
 }
