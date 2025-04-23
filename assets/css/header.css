@@ -28,10 +28,7 @@
 
 #project_title.center {
   text-align: center;
-}
-
-#project_tagline.center {
-  text-align: center;
+  color: white;
 }
 
 #header_wrap {
@@ -39,5 +36,5 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  max-height: 175px;
+  max-height: 900vh;
 }
