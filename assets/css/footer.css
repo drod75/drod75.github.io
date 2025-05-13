@@ -41,15 +41,15 @@
 .socials ul {
   list-style-type: none;
   display: inline-flex; /* Keep items inline */
-  gap: 10px; /* Add space between social icons */
+  gap: 20px; /* Add space between social icons */
 }
 
 .socials a {
   display: flex; /* Use flex for better alignment */
   flex-direction: column; /* Stack icon and text */
   align-items: center; /* Center icon and text */
-  padding: 5px;\
-  color: var(--color-text-light-alt);\
+  padding: 5px;
+  color: var(--color-accent);
   transition: color var(--transition-speed), opacity var(--transition-speed);
 }
 

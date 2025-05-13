@@ -1,14 +1,12 @@
 /* --- Header Styles (`header.css`) --- */
 #header_wrap {
-  background: url(../images/sidebar-bg.jpg) center center / cover no-repeat;
-  /* Removed max-height: 900vh; */
-  /* Consider adding padding or min-height if needed */
+  /* Removed background image */
+  padding: 40px 20px; /* Add vertical padding */
 }
 
 .info-box {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center; /* Vertically center items */
   gap: 25px;
   padding: 20px; /* Combined padding */
@@ -26,11 +24,17 @@
 .header-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  text-align: center; /* Center text */
 }
 
 #project_title { /* Simplified selector */
   text-align: center;
   color: var(--color-text-light);
+}
+
+/* Adjust info-box layout for no image */
+.info-box:has(.header-text:only-child) {
+  justify-content: center; /* Center text content when no image */
+  padding: 40px 20px; /* Adjust padding when only text */
 }
