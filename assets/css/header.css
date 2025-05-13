@@ -1,9 +1,7 @@
 /* --- Header Styles (`header.css`) --- */
 #header_wrap {
-  /* Removed background image */
-  padding: 40px 20px; /* Add vertical padding */
+  background: var(--color-background-medium); /* Change to solid background color */
 }
-
 .info-box {
   display: flex;
   flex-direction: row;
@@ -23,7 +21,7 @@
 
 .header-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Stack elements vertically within header-text */
   justify-content: center;
   text-align: center; /* Center text */
 }
@@ -31,10 +29,4 @@
 #project_title { /* Simplified selector */
   text-align: center;
   color: var(--color-text-light);
-}
-
-/* Adjust info-box layout for no image */
-.info-box:has(.header-text:only-child) {
-  justify-content: center; /* Center text content when no image */
-  padding: 40px 20px; /* Adjust padding when only text */
 }
