@@ -14,7 +14,7 @@
   align-items: center;
   width: 300px; /* Base width */
   /* Removed fixed height: 600px; Let content define height */
-  transition: transform var(--transition-speed), box-shadow var(--transition-speed); /* Combined transition */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Combined transition */
   overflow: hidden; /* Prevent content spillover */
   border-radius: 8px; /* Optional: Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
