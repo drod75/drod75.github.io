@@ -1,0 +1,28 @@
+/* --- Global Styles & Fonts --- */
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  color: inherit; /* Links inherit text color by default */
+  text-decoration: none; /* Remove default underline */
+}
+
+img {
+  max-width: 100%; /* Prevent images from overflowing their containers */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below images */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; /* Make headings bold by default */
+}

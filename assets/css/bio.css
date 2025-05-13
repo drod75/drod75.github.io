@@ -1,0 +1,11 @@
+/* --- Main Content / Bio Styles (`bio.css`) --- */
+.main-bio {
+    padding: 40px;
+    font-size: 1rem; /* Base font size */
+}
+
+@media (min-width: 768px) {
+  .main-bio {
+    font-size: 1.15rem; /* Slightly larger font on bigger screens */
+  }
+}

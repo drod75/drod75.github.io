@@ -1,0 +1,69 @@
+/* --- Footer Styles (`footer.css`) --- */
+.footer {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  justify-content: space-around;
+  align-items: center; /* Vertically center content */
+  padding: 20px 15px; /* Add padding */
+  background-color: var(--color-background-dark);
+  color: var(--color-text-light);
+  min-height: 10vh; /* Use min-height instead of fixed height */
+  text-align: center; /* Center text for smaller screens */
+}
+
+.rights-reserved {
+  margin-bottom: 15px; /* Add space below on smaller screens */
+}
+
+@media (min-width: 768px) {
+  .footer {
+    text-align: left; /* Align text left on larger screens */
+    justify-content: space-between; /* Space out sections */
+  }
+  .rights-reserved {
+     margin-bottom: 0;
+  }
+}
+
+.rights-reserved p {
+  margin: 5px 0; /* Add vertical spacing between paragraphs */
+}
+
+.rights-reserved a {
+  color: var(--color-text-light-alt);
+  text-decoration: underline;
+}
+.rights-reserved a:hover {
+    color: var(--color-link-hover);
+}
+
+/* Socials Section */
+.socials ul {
+  list-style-type: none;
+  display: inline-flex; /* Keep items inline */
+  gap: 10px; /* Add space between social icons */
+}
+
+.socials a {
+  display: flex; /* Use flex for better alignment */
+  flex-direction: column; /* Stack icon and text */
+  align-items: center; /* Center icon and text */
+  padding: 5px;\
+  color: var(--color-text-light-alt);\
+  transition: color var(--transition-speed), opacity var(--transition-speed);
+}
+
+.socials a p {
+    font-size: 0.8rem; /* Smaller text for social links */
+    margin-top: 3px; /* Space between icon and text */
+}
+
+.socials a:hover {
+  color: var(--color-link-hover);
+  opacity: 0.8;
+  text-decoration: none; /* Remove underline added by browser default */
+}
+
+.socials a:hover p {
+  text-decoration: underline; /* Underline only the text on hover */
+}
