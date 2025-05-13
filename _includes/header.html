@@ -8,5 +8,16 @@
         <div class="header-text">
             <h1 id="project_title" class="center">David Rodriguez</h1>
         </div>
+        <div class="social-icons">
+            <ul>
+                {% for link in site.data.links %}
+                <li>
+                    <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                        <i class="{{ link.icon }}" aria-hidden="true"></i>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </html>
