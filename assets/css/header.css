@@ -20,13 +20,15 @@
 }
 .social-icons {
   display: flex; /* Display icons in a row */
+  flex-direction: column; /* Stack links vertically */
   list-style: none; /* Remove default list styling */
   padding: 0;
   margin: 0;
-  gap: 15px; /* Space between icons */
+  gap: 10px; /* Space between link items */
 }
 .social-icons li {
   margin: 0;
+  display: flex; /* Enable flexbox for list items */
 }
 .social-icons a {
   color: var(--color-text-light); /* Icon color */
@@ -35,6 +37,10 @@
 }
 .social-icons a:hover {
   color: var(--color-link-hover); /* Hover color */
+}
+
+.social-icons a i {
+  margin-right: 5px; /* Space between icon and text */
 }
 
 .header-text {
