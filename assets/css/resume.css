@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #0056b3;
+}
+
+header p {
+    color: #555;
+    font-size: 1em;
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.card-container {
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.95em;
+}
+
+.card ul {
+    list-style: disc;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #555;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+
+/* Specific styles for different sections if needed */
+#education .card h3 {
+    color: #007bff;
+}
+
+#experience .card h3 {
+    color: #28a745;
+}
+
+#projects .project-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+#projects .project-card h3 {
+     margin-top: 0;
+    color: #333;
+}
+
+#projects .project-card p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.95em;
+}
