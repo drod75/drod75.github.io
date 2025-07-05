@@ -4,7 +4,7 @@
       title: "Fellow, Data Science"
       location: "New York, NY"
       dates: "Jul 2024-Present"
-      image: "static/images/cuny-tech-prep-logo.png"
+      image: "assets/images/cuny-tech-prep-logo.png"
       description:
         - "Selected for a competitive data science fellowship with students from across the 11 CUNY senior colleges where Fellows create technical projects using tools such as Python 3, Jupyter Notebooks, Pandas, Numpy, Scikit-learn, and SQL."
         - "Participate in weekly courses and learn industry best practices for exploratory data analysis (EDA), feature engineering, data collection and processing, statistical modeling, data visualization, machine learning techniques, data science process, and big data."
@@ -14,7 +14,7 @@
       title: "Member"
       location: "Brooklyn, NY"
       dates: "September 2024 - Present"
-      image: "static/images/usg-logo.png"
+      image: "assets/images/usg-logo.png"
       description:
         - "Coordinated with a specialized council for club registration, and helped oversight approval processes for student organizations, ensuring compliance with university policies and existing clubs."
         - "Work with other USG Senators to create a better campus environment for thousands of students while ensuring a proper schedule and workflow is consistent and clear."
@@ -22,7 +22,7 @@
       title: "Marketing Ambassador"
       location: "Brooklyn, NY"
       dates: "April 2025-August 2025"
-      image: "static/images/codepath-logo.png"
+      image: "assets/images/codepath-logo.png"
       description:
         - "Coordinate events and recruiting events within Brooklyn College to help spread the word about CODEPATH and the services they provide computer science students for free around the United States."
         - "Introduce Computer Science Students at Brooklyn College to industry events and resources to help grow the careers and toolset of Computer Science students at one of many CUNY Colleges."

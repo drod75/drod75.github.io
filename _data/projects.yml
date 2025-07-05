@@ -1,13 +1,13 @@
 - title: "Blind-spot"
   date: "February 2025 - May 2025"
-  image: "static/images/project-blindspot.jpg"
+  image: "assets/images/project-blindspot.jpg"
   description: |
     Architected and optimized an end-to-end ML pipeline for the "Blind Spot" application, capturing real-time camera
     frames, preprocessing images with OpenCV, encoding them via base64, and feeding into a Google Gemini-powered
     LangChain model wrapped in Pydantic schemas, achieving sub-second inference latency and 95% uptime in production.
 - title: "Food Chain"
   date: "October 2024 - December 2024"
-  image: "static/images/project-food-chain.jpg"
+  image: "assets/images/project-food-chain.jpg"
   description: |
     Implemented a classification model by using Tensorflow with around a 70 percent success rate to perform food
     classification in order to inform users of what it is they are eating from a database of a variety of foods found most
