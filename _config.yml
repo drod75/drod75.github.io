@@ -1,0 +1,10 @@
+# _config.yml
+
+# This tells GitHub Pages to use the jekyll-seo-tag plugin
+# to help with search engine optimization.
+plugins:
+  - jekyll-seo-tag
+
+# You can add basic information about your site here if you want.
+title: David Rodriguez's Portfolio
+description: The portfolio of David Rodriguez, a Computer Science and Data Science student.
