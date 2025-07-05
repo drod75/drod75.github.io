@@ -1,12 +1,12 @@
-  - institution: Brooklyn College (BC), City University of New York (CUNY)
-    degree: Bachelor of Technology in Computer Science
-    minor: Data Science
-    gpa: 3.7/4.00
-    dates: Expected May 2026
-    location: Brooklyn, NY
-    relevant_coursework:
-      - Linear Algebra
-      - Data Tools
-      - Algorithims
-      - Ethics
-      - Data Structures
+- institution: Brooklyn College (BC), City University of New York (CUNY)
+  degree: Bachelor of Technology in Computer Science
+  minor: Minor in Data Science
+  gpa: 3.7/4.00
+  expected_date: Expected May 2026
+  location: Brooklyn, NY
+  relevant_coursework:
+    - Algorithms
+    - Data Tools
+    - Robotics
+    - Ethics
+    - Data Structures
