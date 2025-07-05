@@ -18,7 +18,7 @@ layout: default
 
 <div class="container mx-auto p-8">
     <section id="about" class="py-12">
-        <h2 class="text-4xl font-bold text-center mb-8">About Me</h2>
+        <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">About Me</h2>
         <div class="card bg-base-100 shadow-xl">
             <div class="card-body">
                 <p class="text-lg">{{ site.data.bio.introduction | markdownify | replace: '<p>', '' | replace: '</p>', '' }}</p>
@@ -27,7 +27,7 @@ layout: default
     </section>
 
     <section id="projects" class="py-12">
-        <h2 class="text-4xl font-bold text-center mb-8">Projects</h2>
+        <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             {% for project in site.data.projects %}
             <div class="card bg-base-100 shadow-xl image-full">
@@ -43,7 +43,7 @@ layout: default
     </section>
 
     <section id="experience" class="py-12">
-        <h2 class="text-4xl font-bold text-center mb-8">Experience</h2>
+        <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Experience</h2>
         {% for experience_type in site.data.experience %}
         <h3 class="text-3xl font-bold mb-6 text-center">{{ experience_type.type }}</h3>
         <div class="space-y-8">
@@ -67,7 +67,7 @@ layout: default
     </section>
 
     <section id="education" class="py-12">
-         <h2 class="text-4xl font-bold text-center mb-8">Education</h2>
+         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Education</h2>
          {% for edu in site.data.education %}
          <div class="card bg-base-100 shadow-xl">
              <div class="card-body">
@@ -89,7 +89,7 @@ layout: default
      </section>
 
      <section id="skills" class="py-12">
-         <h2 class="text-4xl font-bold text-center mb-8">Skills</h2>
+         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Skills</h2>
          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
            {% for skill in site.data.skills %}
              <div class="card bg-base-100 shadow-xl">
