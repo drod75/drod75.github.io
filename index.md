@@ -12,6 +12,7 @@ layout: default
             </p>
             <a href="{{ site.data.user.website }}" class="btn btn-primary">Website</a>
             <a href="https://{{ site.data.user.linkedin }}" class="btn btn-secondary">LinkedIn</a>
+            <a href="{{ site.data.user.github }}" class="btn btn-accent">GitHub</a>
         </div>
     </div>
 </div>
@@ -25,7 +26,7 @@ layout: default
             </div>
         </div>
     </section>
-    
+
     <section id="projects" class="py-12">
         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
