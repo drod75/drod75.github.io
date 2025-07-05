@@ -25,14 +25,14 @@ layout: default
             </div>
         </div>
     </section>
-
+    
     <section id="projects" class="py-12">
         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             {% for project in site.data.projects %}
-            <div class="card bg-base-100 shadow-xl image-full">
-                <figure><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" /></figure>
-                <div class="card-body">
+            <div class="card card-side bg-base-100 shadow-xl">
+                <figure class="p-4 w-1/3"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="rounded-lg object-cover h-full"></figure>
+                <div class="card-body w-2/3">
                     <h3 class="card-title">{{ project.title }}</h3>
                     <p class="text-sm">{{ project.date }}</p>
                     <p>{{ project.description }}</p>
