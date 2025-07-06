@@ -31,8 +31,8 @@ layout: default
         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Projects</h2>
         <div class="space-y-8">
             {% for project in site.data.projects %}
-            <div class="card flex-col md:flex-row bg-base-100 shadow-xl">
-                <figure class="w-full md:w-1/3 p-4"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="rounded-lg object-cover h-full w-full"></figure>
+            <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
+                <figure class="w-full md:w-1/3 h-48 md:h-full"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="object-cover h-full w-full"></figure>
                 <div class="card-body w-full md:w-2/3">
                     <h3 class="card-title">{{ project.title }}</h3>
                     <p class="text-sm">{{ project.date }}</p>
@@ -52,8 +52,10 @@ layout: default
         <h3 class="text-3xl font-bold mb-6 text-center">{{ experience_type.type }}</h3>
         <div class="space-y-8">
             {% for job in experience_type.jobs %}
-            <div class="card flex-col md:flex-row bg-base-100 shadow-xl">
-                <figure class="w-full md:w-1/4 p-4"><img src="{{ job.image | relative_url }}" alt="{{ job.company }}" class="object-contain h-32 md:h-full"></figure>
+            <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
+                <figure class="w-full md:w-1/4 h-48 md:h-full flex items-center justify-center p-4 bg-gray-100">
+                    <img src="{{ job.image | relative_url }}" alt="{{ job.company }}" class="object-contain max-h-full">
+                </figure>
                 <div class="card-body w-full md:w-3/4">
                     <h4 class="card-title">{{ job.title }} at {{ job.company }}</h4>
                     <p class="text-sm text-gray-500">{{ job.location }} | {{ job.dates }}</p>
