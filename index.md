@@ -36,7 +36,11 @@ layout: default
                 <div class="card-body w-full md:w-2/3">
                     <h3 class="card-title">{{ project.title }}</h3>
                     <p class="text-sm">{{ project.date }}</p>
-                    <p>{{ project.description }}</p>
+                    <ul class="list-disc pl-5">
+                        {% for item in project.description %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
             {% endfor %}
