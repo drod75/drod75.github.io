@@ -17,7 +17,6 @@ layout: default
         </div>
     </div>
 </div>
-
 <div class="container mx-auto p-8">
     <section id="about" class="py-12">
         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">About Me</h2>
@@ -32,7 +31,7 @@ layout: default
         <div class="space-y-8">
             {% for project in site.data.projects %}
             <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
-                <figure class="w-full md:w-1/3 h-48 md:h-full"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="object-cover h-full w-full"></figure>
+                <figure class="w-full md:w-1/3 h-48 md:h-64"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="object-cover h-full w-full"></figure>
                 <div class="card-body w-full md:w-2/3">
                     <h3 class="card-title">{{ project.title }}</h3>
                     <p class="text-sm">{{ project.date }}</p>
@@ -53,7 +52,7 @@ layout: default
         <div class="space-y-8">
             {% for job in experience_type.jobs %}
             <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
-                <figure class="w-full md:w-1/4 h-48 md:h-full flex items-center justify-center p-4 bg-gray-100">
+                <figure class="w-full md:w-1/4 h-48 md:h-64 flex items-center justify-center p-4 bg-gray-100">
                     <img src="{{ job.image | relative_url }}" alt="{{ job.company }}" class="object-contain max-h-full">
                 </figure>
                 <div class="card-body w-full md:w-3/4">
