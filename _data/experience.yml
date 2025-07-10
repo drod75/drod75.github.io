@@ -1,5 +1,13 @@
 - type: "Relevant Experience"
   jobs:
+    - company: "Kapitus"
+      title: "Research, Support Intern"
+      location: "New York, NY"
+      dates: "July 2025 - August 2025"
+      image: "assets/images/kapitus.jpg"
+      description:
+        - "Selected for a competitive internship as a Research and Support Intern, liaise with stakeholders and offshore teams,  assist the Capital Markets team in establishing and executing month-end workflows promptly, develop presentations for senior management detailing potential cost savings from future banking relationships."
+        - "During the time the skills developed are, Project management, Team collaboration,  Basic Financial markets, Excel modeling, Data analytics, by working with various senior teams at the company to understand the industry company."
     - company: "CUNY Tech Prep"
       title: "Data Science Fellow"
       location: "New York, NY"

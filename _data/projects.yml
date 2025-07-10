@@ -2,9 +2,9 @@
   date: "February 2025 - May 2025"
   image: "assets/images/project-blindspot.png"
   description:
-    - Architected and optimized an end-to-end ML pipeline for the "Blind Spot" application, capturing real-time camera frames, preprocessing images with OpenCV, encoding them via base64, and feeding into a Google Gemini-powered LangChain model wrapped in Pydantic schemas, achieving sub-second inference latency and 95% uptime in production.
-    - Engineered and containerized a scalable Flask/Gunicorn backend on AWS EC2 and Render, automating model loading, environment configuration with python-dotenv, and continuous deployment, while implementing request-level caching, history-aware prompts, and secure API-key enforcement to support concurrent users.
-
+    - Designed and optimized an end‑to‑end agent pipeline for the Blind Spot application, capturing real‑time camera frames, and feeding into a Google Gemini‑powered LangChain model, achieving 95% uptime in production.  
+    - Engineered and containerized a scalable Flask/Gunicorn backend on Render, continuous deployment, while implementing request‑level caching, history‑aware prompts, and secure API‑key’s to support concurrent users.
+ 
 - title: "Food Chain"
   date: "October 2024 - December 2024"
   image: "assets/images/project-food-chain.jpeg"
