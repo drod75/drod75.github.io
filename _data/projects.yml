@@ -2,9 +2,10 @@
   date: "February 2025 - May 2025"
   image: "assets/images/project-blindspot.png"
   description:
-    - Designed and optimized an end‑to‑end agent pipeline for the Blind Spot application, capturing real‑time camera frames, and feeding into a Google Gemini‑powered LangChain model, achieving 95% uptime in production.  
+    - Designed and optimized an end‑to‑end agent pipeline for the Blind Spot application, capturing real‑time camera frames, and feeding into a Google Gemini‑powered LangChain model, achieving 95% uptime in production.
     - Engineered and containerized a scalable Flask/Gunicorn backend on Render, continuous deployment, while implementing request‑level caching, history‑aware prompts, and secure API‑key’s to support concurrent users.
- 
+  link: https://blind-spot.app/
+
 - title: "Food Chain"
   date: "October 2024 - December 2024"
   image: "assets/images/project-food-chain.jpeg"

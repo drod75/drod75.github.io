@@ -4,9 +4,9 @@ layout: default
 
 <div class="hero min-h-screen bg-base-100">
     <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src="{{ site.data.user.picture | relative_url }}" class="max-w-sm rounded-lg shadow-2xl" />
+        <img src="{{ site.data.user.picture | relative_url }}" class="max-w-xs sm:max-w-sm rounded-lg shadow-2xl" />
         <div>
-            <h1 class="text-5xl font-bold">{{ site.data.user.name }}</h1>
+            <h1 class="text-4xl sm:text-5xl font-bold">{{ site.data.user.name }}</h1>
             <p class="py-6">
                 {{ site.data.user.email }} | {{ site.data.user.location }}
             </p>
@@ -30,9 +30,9 @@ layout: default
         <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Projects</h2>
         <div class="space-y-8">
             {% for project in site.data.projects %}
-            <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
-                <figure class="w-full md:w-1/3 h-48 md:h-64"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="object-cover h-full w-full"></figure>
-                <div class="card-body w-full md:w-2/3">
+            <div class="card flex-col lg:flex-row bg-base-100 shadow-xl overflow-hidden lg:items-start">
+                <figure class="w-full lg:w-1/3 h-48 lg:h-64"><img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="object-cover h-full w-full"></figure>
+                <div class="card-body w-full lg:w-2/3">
                     <h3 class="card-title">{{ project.title }}</h3>
                     <p class="text-sm">{{ project.date }}</p>
                     <ul class="list-disc pl-5">
@@ -40,6 +40,11 @@ layout: default
                         <li>{{ item }}</li>
                         {% endfor %}
                     </ul>
+                    {% if project.link %}
+                    <div class="card-actions justify-end">
+                        <a href="{{ project.link }}" class="btn btn-primary">View Project</a>
+                    </div>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
@@ -51,11 +56,11 @@ layout: default
         <h3 class="text-3xl font-bold mb-6 text-center">{{ experience_type.type }}</h3>
         <div class="space-y-8">
             {% for job in experience_type.jobs %}
-            <div class="card flex-col md:flex-row bg-base-100 shadow-xl overflow-hidden md:items-start">
-                <figure class="w-full md:w-1/4 h-48 md:h-64 flex items-center justify-center p-4 bg-gray-100">
+            <div class="card flex-col lg:flex-row bg-base-100 shadow-xl overflow-hidden lg:items-start">
+                <figure class="w-full lg:w-1/4 h-48 lg:h-64 flex items-center justify-center p-4 bg-gray-100">
                     <img src="{{ job.image | relative_url }}" alt="{{ job.company }}" class="object-contain max-h-full">
                 </figure>
-                <div class="card-body w-full md:w-3/4">
+                <div class="card-body w-full lg:w-3/4">
                     <h4 class="card-title">{{ job.title }} at {{ job.company }}</h4>
                     <p class="text-sm text-gray-500">{{ job.location }} | {{ job.dates }}</p>
                     <ul class="list-disc pl-5">
@@ -93,7 +98,7 @@ layout: default
      </section>
      <section id="skills" class="py-12">
          <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Skills</h2>
-         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
            {% for skill in site.data.skills %}
              <div class="card bg-base-100 shadow-xl">
                  <div class="card-body">
