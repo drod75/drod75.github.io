@@ -13,3 +13,4 @@
     - Implemented a classification model by using Tensorflow with around a 70 percent success rate to perform food classification in order to inform users of what it is they are eating from a database of a variety of foods found most common in the United States.
     - Trained the model with a database over 100 classes with a total of 100,000 images, trained the model on a variety of data implementing advanced training techniques to ensure the model was accurate and acceptable.
     - Applied a Retrieval Augmented Generation (RAG) inside the application tied to a database of thousands of authentic recipes to provide users with recipes based on their query, combined 2 features to create a system of classification and Al and data driven creation.
+  link: https://huggingface.co/spaces/tonyliu404/FoodChain
