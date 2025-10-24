@@ -106,11 +106,11 @@ layout: default
                      {% if skill.items and skill.items[0] %}
                        <div class="flex flex-wrap gap-2">
                          {% for item in skill.items %}
-                           {{ item }}
+                           {{ item | markdownify }}
                          {% endfor %}
                        </div>
                      {% else %}
-                       <p>{{ skill.items }}</p>
+                       <p>{{ skill.items | markdownify }}</p>
                      {% endif %}
                  </div>
              </div>
