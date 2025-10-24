@@ -100,10 +100,18 @@ layout: default
          <h2 class="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">Skills</h2>
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
            {% for skill in site.data.skills %}
-             <div class="card bg-base-100 shadow-xl">
+             <div class="card bg-{{ skill.color | default: 'base-100' }} text-primary-content shadow-xl">
                  <div class="card-body">
                      <h3 class="card-title">{{ skill.category }}</h3>
-                     <p>{{ skill.items }}</p>
+                     {% if skill.items and skill.items[0] %}
+                       <div class="flex flex-wrap gap-2">
+                         {% for item in skill.items %}
+                           {{ item }}
+                         {% endfor %}
+                       </div>
+                     {% else %}
+                       <p>{{ skill.items }}</p>
+                     {% endif %}
                  </div>
              </div>
            {% endfor %}
